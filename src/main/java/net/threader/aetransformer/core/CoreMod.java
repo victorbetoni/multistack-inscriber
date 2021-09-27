@@ -82,7 +82,6 @@ public class CoreMod implements IFMLLoadingPlugin {
             }
 
             if (ae == null) {
-                System.out.println("Pixelmon's jar cannot be found, the program will not continue.");
                 return;
             }
 
