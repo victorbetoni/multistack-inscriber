@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "aetransformer.refmap.json",
+  "package": "net.threader.aetransformer.mixin",
+  "mixins": [
+    "AppEngSlotMixin",
+    "TileInscriberMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
